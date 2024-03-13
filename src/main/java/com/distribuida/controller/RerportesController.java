@@ -61,4 +61,5 @@ public class RerportesController {
 			reportesService.del(idReporte);
 			return "redirect:/reportes/findAll";
 		}
+		
 }
